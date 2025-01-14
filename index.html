@@ -1,49 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="sytle.css">
-        <title>Habit Tracker
-        </title>
+        <title>Habit Tracker</title>
     </head>
 
 
     <body>
-        <div class="goal-container">
+        <div id="goal-container">
             <h1>Goals</h1>
-            <ul class="goal-list">
+            <ul id="goal-list">
             <li>
                 <div class="title">
-                    <h2>Health</h2>
+                    <input type="text" placeholder="Goal"></input>
                     <h2 class="lvl">LVL. 1</h2>
                 </div>
-               <button>Add Habit</button>
-            </li>
-            <li>
-                <h2>Health</h2>
-                <h2 class="lvl">LVL. 1</h2>
-               <button>Complete</button>
-            </li>
-            <li>
-                <h2>Health</h2>
-                <h2 class="lvl">LVL. 1</h2>
-               <button>Complete</button>
+               <button onclick="addHabit()">Add Habit</button>
             </li>
             </ul>
         </div>
 
-        <div class="habit-container">
+        <div id="habit-container">
             <h1>Habits</h1>
-            <ul class="goal-list">
-            <li>
-                <div class="title">
-                <h2>Health</h2>
-                <h2 class="lvl">LVL. 1</h2>
-            </div>
-                <div class="progress-bar">
-                    <span class="progress-bar-percent"></span>
-                </div>
-                <h3 class="total-days">1/30 Days</h3>
-               <button>Completed</button>
-            </li>
+            <ul id="habit-list">
+            
             </ul>
         </div>
 
